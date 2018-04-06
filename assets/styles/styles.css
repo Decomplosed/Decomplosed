@@ -15,7 +15,7 @@ html, body {
     display: inline;
     margin-left: 20px;
     width: 100%;
-    background: dimgray;
+    background: dimgrey;
     overflow: hidden;
     z-index: 10;
 }
@@ -35,7 +35,7 @@ html, body {
     height: 80px;
     margin-right: auto;
     margin-left: auto;
-    
+
     list-style: none;
 }
 
@@ -58,8 +58,8 @@ html, body {
 }
 
 .navigation-list-item {
-    background: dimgray;
-    border-top: 8px dimgray solid;
+    background: dimgrey;
+    border-top: 8px dimgrey solid;
     float: left;
     height: 40px;
     width: 120px;
@@ -78,7 +78,7 @@ html, body {
 
 .login{
     float: right;
-    margin-right: 170px;
+    margin-right: 400px;
     display: inline;
 }
 
@@ -176,4 +176,103 @@ h2 {
 
 .lightblue-border {
     border-color: deepskyblue;
+}
+
+.button-hero {
+    height: 40px;
+    width: 150px;
+    background: transparent;
+    margin: 5px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    border-color: whitesmoke;
+    background: lightseagreen;
+}
+
+.h1-top{
+    color: lightseagreen;
+}
+
+.h1-bot{
+    color: white;
+}
+
+.section-team {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-head{
+    font-size: 40px;
+    color: #2FBAAD;
+}
+
+.team-info-container {
+    display: inline-block;
+    width: 20%;
+    height: 450px;
+    text-align: center;
+    border: 2px #4e868a;
+    position: relative;
+    margin: 30px 30px;
+}
+
+.team-photo {
+    height: 45%;
+    border-bottom: 1px #4e868a;
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-name {
+    width: 75%;
+    border: 1px solid #4e868a;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 2px;
+    color: #01baac;
+}
+
+.team-name p {
+    color: grey;
+}
+
+.team-description {
+    padding: 30px 5px 5px;
+    font-size: 20px;
+}
+
+.team-profile-button {
+    border: 2px solid #2FBAAD;
+    background-color: #fff;
+    color: #2FBAAD;
+    padding: 10px;
+    width: 60%;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+}
+
+.section-features{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
 }
