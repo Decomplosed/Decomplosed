@@ -197,7 +197,7 @@ h2 {
 }
 
 .section-team {
-    width: 55%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -209,7 +209,7 @@ h2 {
 
 .team-info-container {
     display: inline-block;
-    width: 20%;
+    width: 200px;
     height: 450px;
     text-align: center;
     border: 2px #4e868a;
@@ -289,13 +289,22 @@ h2 {
 }
 .comp-info-container{
     margin: 100px;
+    position: relative;
 }
 
 .comp-info{
-    height: 250px;
-    width: 140px;
     display: inline-block;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 40px;
+}
+
+.comp-info:first-child{
+    margin-left: 0;
+}
+
+.comp-info:last-child{
+    margin-right: 0;
 }
 
 .comp-dots{
@@ -303,29 +312,31 @@ h2 {
     width: 60px;
     display: inline-block;
     text-align: center;
+    position: absolute;
+    top: 80px;
 }
 
-.company-info-description {
+.comp-info-description {
     margin-top: 30px;
 }
 
-.company-info-description span {
+.comp-info-description span {
     display: block;
 }
 
-.company-item__number {
+.comp-item__number {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 15px;
 }
 
-.company-info-count {
+.comp-info-count {
     font-weight: bold;
     font-size: 32px;
     margin-bottom: 15px;
 }
 
-.company-info-icon {
+.comp-info-icon {
     background-color: #000;
     border-radius: 50%;
     padding: 30px;
@@ -337,7 +348,6 @@ h2 {
     height: 450px;
     width: 1680px;
     text-align: center;
-    margin-left: 550px;
 }
 
 .prices-head {
@@ -357,3 +367,4 @@ h2 {
 .table thead {
     background: #0ebab4;
 }
+
