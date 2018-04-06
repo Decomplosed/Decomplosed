@@ -374,3 +374,40 @@ h2 {
     font-size: 40px;
     color: #2FBAAD;
 }
+
+.blog-post{
+    width: 290px;
+    display: inline-block;
+    margin: 12px;
+    border-bottom: 1px solid #0ebab4;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.blog-post img {
+    width: 290px;
+    height: 220px;
+}
+
+.blog-container {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blog-learn{
+    float: left;
+}
+
+.blog-comments{
+    float: right;
+}
+
+.blog-post h3 {
+    font-size: 25px;
+    color: #0ebab4;
+}
+
+.blog-learn{
+    color: #0ebab4;
+}
