@@ -345,17 +345,19 @@ h2 {
 }
 
 .prices {
+    margin: 0 auto;
     height: 450px;
     width: 1680px;
     text-align: center;
 }
 
 .prices-head {
-
+    font-size: 40px;
+    color: #2FBAAD;
 }
 
 .table {
-    margin: auto;
+    margin: 0 auto;
     border-collapse: collapse;
     table-layout: fixed;
     height: 40%;
@@ -368,3 +370,7 @@ h2 {
     background: #0ebab4;
 }
 
+.section-head {
+    font-size: 40px;
+    color: #2FBAAD;
+}
