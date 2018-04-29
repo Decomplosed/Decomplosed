@@ -1,0 +1,20 @@
+.blue {
+    height: 100px;
+    background: #2f86bd;
+}
+.orange {
+    height: 240px;
+    background: #ffa124;
+}
+.green {
+    height: 200px;
+    background: #00ff45;
+}
+.red {
+    height: 100px;
+    background: #ff3616;
+}
+
+* {
+    padding: 10px;
+}
